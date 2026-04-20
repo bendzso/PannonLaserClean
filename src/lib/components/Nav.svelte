@@ -28,20 +28,8 @@
 		<div class="flex items-center justify-between h-16 lg:h-20">
 
 			<!-- Logo -->
-			<a href="#hero" class="flex items-center gap-2 group" onclick={close}>
-				<div class="relative w-8 h-8 flex items-center justify-center">
-					<svg viewBox="0 0 32 32" fill="none" class="w-8 h-8">
-						<rect width="32" height="32" rx="6" fill="#f97316" opacity="0.15"/>
-						<path d="M6 16 L14 8 L20 14 L26 6" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-						<circle cx="26" cy="6" r="2.5" fill="#f97316"/>
-						<path d="M6 24 L26 24" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
-						<path d="M6 27 L20 27" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
-					</svg>
-				</div>
-				<div>
-					<span class="font-bold text-white text-sm lg:text-base leading-tight block">Pannon</span>
-					<span class="font-bold text-orange-500 text-sm lg:text-base leading-tight block">Laser Clean</span>
-				</div>
+			<a href="#hero" class="flex items-center gap-3 group" onclick={close}>
+				<img src="/gallery/PLC-logo.jpg" alt="Pannon Laser Clean logó" class="h-10 w-auto rounded-lg" />
 			</a>
 
 			<!-- Desktop links -->
